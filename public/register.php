@@ -1,6 +1,7 @@
+<!--Mao ni ang php file responsible sa pag register ug isa ka user-->
 <?php 
-
-require_once 'config.php';
+	
+	require_once 'config.php';
 
 
 
@@ -40,10 +41,6 @@ require_once 'config.php';
 					<input type="text" name="mobile_number">
 					</div>
 
-					<div class="input-group ">
-					<label>Name<sup>*</sup></label>
-					<input type="text" name="name">
-					</div>
 
 					<div class="input-group">
 					<label>Address</label>
@@ -75,7 +72,5 @@ require_once 'config.php';
 			</form>
 		
 	</div>
-
-
 </body>
 </html>

@@ -1,6 +1,7 @@
 <?php
 /* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
+server with default setting (user 'root' with no password) 
+//Kaning config.php kay mao ni ang mag establish ug connection sa php file to db*/
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
