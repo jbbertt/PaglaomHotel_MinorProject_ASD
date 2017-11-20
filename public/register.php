@@ -88,7 +88,7 @@
             $confirm_password = $_POST['confirm_password'];
 
 
-            if($name.charAt(0) == " " || $name == null || $email.charAt(0) == " " || $email == null || $mobile_number.charAt(0) == " " || $mobile_number == null || $address.charAt(0) == " " || $address == null || $username.charAt(0) == " " || $username == null || $password.charAt(0) == " " || $password == null){
+            if($name == null || $email == null || $mobile_number == null || $address == null || $username == null || $password == null){
 
                     echo '<script> alert (" Fill out all forms properly!") </script>';
 
