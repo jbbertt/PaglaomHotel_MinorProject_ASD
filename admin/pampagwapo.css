@@ -1,0 +1,309 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/* ------------------------------------ */
+/* Navigation Bar */
+/* ------------------------------------ */
+
+
+#Header{
+    background-color: #0eb493; 
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1000;
+    top: 0px; 
+    
+}
+
+#NavBar{
+    margin-right: 200px;
+    width:800px;
+    height: 65px;
+    margin-top: 11px;
+    float:right;
+	color: white;	
+}
+
+#nav{
+    text-decoration: none;
+    display: inline-block;
+    font-size:15px;
+    color: floralwhite;
+    font-family: Calibri;
+}
+
+#nav:hover{
+	color:#0eb493;
+    text-decoration: strong;
+}
+
+ul li{
+    float:right;
+    list-style: none;
+    width: 120px;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#logo{
+    margin-top:18px;
+    margin-left: 250px;
+
+}
+
+/* ------------------------------------ */
+/* Home */
+/* ------------------------------------ */
+
+#homebg{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#textcolor{
+    color: #0eb493;
+}
+
+#homecontent{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* ------------------------------------ */
+/* About */
+/* ------------------------------------ */
+
+#aboutbg{
+    background-color: #0eb493;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#aboutparagraph{
+    margin-left: 200px;
+    margin-right: 200px;    
+    padding-top: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+#Footer{
+    width: 100%;
+    height: 50px;
+    background-color: white; 
+    text-align:center;
+    position: absolute;
+}
+
+
+/* ------------------------------------ */
+/* Contact */
+/* ------------------------------------ */
+#contactparagraph{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+/* ------------------------------------ */
+/* Reservation */
+/* ------------------------------------ */
+
+
+.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    
+  min-height: 1px;
+  padding-left: 200px;
+}
+
+.col-md-5 {
+    width: 41.66666667%;
+  }
+
+.col-sm-5 {
+    width: 41.66666667%;
+  }
+
+ .col-sm-6 {
+    width: 50%;
+  }
+
+.col-md-6 {
+    width: 50%;
+  }
+
+ .col-md-12 {
+    width: 100%;
+  }
+
+#page-wrapper{
+    margin-left: 470px;
+}
+
+#admin-wrapper{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#panel-heading{
+    color: white;
+    background-color: #0eb493;
+    border-color: #0eb493;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#panel-primary {
+    background-color: #0eb493;
+    border-color: #0eb493;
+}
+
+#panel-primary2 {
+    background-color: #0eb493;
+    border-color: #0eb493;
+}
+table th, td{
+    padding = 10px;
+}
+
+/* ------------------------------------ */
+/* Buttons */
+/* ------------------------------------ */
+
+#btn-primary{
+    width: 390px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #0eb493;
+    border-color: #0eb493;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#btn-cancel{
+    width: 390px;
+    color: #0eb493;
+    background-color: beige;
+    border-color: #0eb493;
+    padding: 10px 15px;
+}
+
+#btn-send{
+    width: 275px;
+    color: #0eb493;
+    background-color: beige;
+    border-color: #0eb493;
+    padding: 10px 15px;
+}
+
+#btn-book1{
+    margin-top: 70px;
+    width: 500px;
+    height: 70px;
+    color: beige;
+    background-color: #0eb493;
+    border-color: beige;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#btn-book1:hover{
+    margin-top: 70px;
+    width: 500px;
+    height: 70px;
+    color:#0eb493;
+    background-color: beige;
+    border-color: #0eb493;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#paddingtop{
+    margin-top: 200px;
+	background-color: beige;
+}
+
+
+#uname{
+    height: 40px;
+    width: 275px;
+    color: #0eb493;
+    background-color: white;
+    border-color: #0eb493;
+    padding: 10px 15px;
+}
+
+#password{
+    height: 40px;
+    width: 275px;
+    color: #0eb493;
+    background-color: white;
+    border-color: #0eb493;
+    padding: 10px 15px;
+}
+
+#aboutparagraph2{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#btn-login{
+    width: 275px;
+    color: white;
+    background-color: #0eb493;
+    border-color: #0eb493;
+}
+
+#btn-login:hover{
+    width: 275px;
+    color: #ffffff;
+    background-color: beige;
+    border-color: #0eb493;
+}
+
+#adminbg{
+    background-color: beige;
+    color: #0eb493;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+}
+
+#textcolor{
+    color: #0eb493;
+}
