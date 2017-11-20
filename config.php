@@ -1,1 +1,0 @@
-//Kaning config.php kay mao ni ang mag establish ug connection sa php file to db

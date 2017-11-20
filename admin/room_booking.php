@@ -36,20 +36,21 @@ th, td {
     </div>
 
     <div id="page">
-      <h2>Users</h2>
+      <h2>Room Bookings</h2>
       <p>Welcome to the admin area.</p>
 
       <div id="unod">
 
 <table style="width:100%">
   <tr>
-    <th>Names</th>
-    <th>Email</th> 
-    <th>Mobile Number</th>
-    <th>Address</th>
-    <th>Username</th>
-    <th>Password</th>
-    <th>Status
+    <th>Booking ID</th>
+    <th>Room Id</th>
+    <th>Room Type</th> 
+    <th>Costumer Name</th>
+    <th>Check in Date</th>
+    <th>Check out Date</th>
+    <th>Room Guest</th>
+
   </tr>
   <tr>
     <td>Jill Aira JJJJ</td>
